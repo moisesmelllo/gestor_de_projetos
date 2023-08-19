@@ -1,8 +1,10 @@
-import React from 'react'
+import styles from './PrimeiraFrase.module.css'
 
 function Frase() {
   return (
-    <div>Este é um component com uma frase!</div>
+    <div className={styles.fraseContainer}>
+      <p>Este é um component com uma frase!</p>
+    </div>
   )
 }
 
