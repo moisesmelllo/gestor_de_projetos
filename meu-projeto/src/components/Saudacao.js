@@ -9,7 +9,9 @@ function Saudacao({nome}) {
 
 
   return (
-    <div>{nome && (gerarSaudacao(nome))}</div>
+  <>
+    {nome && <div>{gerarSaudacao(nome)}</div>}
+    </>
   )
 }
 
