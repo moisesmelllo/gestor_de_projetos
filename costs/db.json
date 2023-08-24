@@ -43,6 +43,28 @@
       "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": "django",
+      "orçamento": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "django",
+      "orçamento": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [

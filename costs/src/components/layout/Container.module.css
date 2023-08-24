@@ -1,8 +1,12 @@
 .container {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  @media (max-width: 1152px) {
+    width: 80vw;
+  }
 }
 
 
