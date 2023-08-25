@@ -1,17 +1,15 @@
 .container {
-  width: 90vw;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
-  @media (max-width: 1152px) {
-    width: 80vw;
-  }
+  flex: 1;
 }
 
-
 .start {
-  height: 100%;
+  flex: 1;
   justify-content: flex-start;
   padding: 1rem 3rem;
 }

@@ -3,7 +3,8 @@
   color: #fff;
   padding: 1.5em;
   text-align: center;
-
+  width: 100vw;
+  flex-shrink: 0;
 }
 
 .social_list {
