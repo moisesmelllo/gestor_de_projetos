@@ -7,6 +7,7 @@ import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar'
 import Projects from './components/pages/Projects';
 import Footer from './components/layout/Footer';
+import Project from './components/pages/Project';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/contact' element={<Contact />}/>
             <Route path='/newproject' element={<NewProject />}/>
             <Route path='/projects' element={<Projects />}/>
+            <Route path='/project/:id' element={<Project />}/>
           </Routes>
         </Container>
         <div className='footer'>
