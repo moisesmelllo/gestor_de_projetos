@@ -59,7 +59,7 @@ function Projects() {
         <LinkButton to='/newproject' text='criar projeto'/>
       </div>
       {message && <Message msg={message} type='sucess' />}
-      <Container className='pocket'>
+      <Container>
         {projects.length > 0 && 
           projects.map((project) => (
             <ProjectCard

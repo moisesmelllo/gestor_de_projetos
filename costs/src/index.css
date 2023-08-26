@@ -7,10 +7,11 @@
 }
 
 html, body, #root {
-  background-color: #EFEFEF;
-  height: 100%;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eaeaea;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
+  overflow: hidden;
 }

@@ -1,25 +1,39 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "orçamento": "10000",
+      "name": "django",
+      "orçamento": "341221312",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": null,
+      "services": [
+        {
+          "name": "django",
+          "cost": "234",
+          "description": "some description",
+          "id": "b96069ab-46f2-4c32-acd1-92c29129e0dd"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "projeto",
+      "orçamento": "23123123",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "moises",
-      "orçamento": "2131",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
+      "cost": 2000,
+      "services": [
+        {
+          "name": "contratar backend",
+          "cost": "2000",
+          "description": "criar um CRUD",
+          "id": "0d2b1da1-b037-4aaf-9e9a-b4366f86731f"
+        }
+      ],
       "id": 2
     }
   ],

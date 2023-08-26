@@ -1,14 +1,28 @@
 .container {
   margin: 0;
   padding: 0;
-  width: 90vw;
+  width: 93vw;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   flex: 1;
+
+  @media (max-width: 1306px) {
+    width: 85vw;
+  }
+
+  @media (max-width: 860px) {
+    width: 80vw;
+
+  }
+
+  @media (max-width: 600px) {
+    width: 75vw;
+  }
 }
 
 .start {
+  width: 100vw;
+  justify-content: center;
   flex: 1;
   justify-content: flex-start;
   padding: 1rem 3rem;
@@ -17,5 +31,10 @@
 .column {
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
