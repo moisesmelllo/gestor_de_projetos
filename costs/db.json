@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "laksjdklasjda",
-      "orçamento": "564564564",
+      "name": "teste",
+      "orçamento": "10000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -10,6 +10,17 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "moises",
+      "orçamento": "2131",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [
